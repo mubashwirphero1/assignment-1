@@ -16,7 +16,12 @@ section{
 }
 h1{
     font-size: 50px;
-    font-weight: 800;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
 }
 .text-area{
     width: 45%;
@@ -58,4 +63,49 @@ h1{
 .text-area-2{
     width: 50%;
     margin-left: 5%;
+}
+.recipie-area{
+    margin-top: 5%;
+}
+.text-area-3{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.recipie{
+    margin-top: 5%;
+}
+.recipie-section{
+    width: 35%;
+    padding: 20px;
+    box-shadow: 1px 1px 20px #c5c5c5;
+    border-radius: 15px;
+    margin: 0 2% 0 2%;
+}
+.recipie-section img{
+    width: 100%;
+}
+.numbers{
+    width: 70%;
+    box-shadow: 1px 1px 20px #c5c5c5;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.number-section{
+    width: 25%;
+    margin: 0 5% 0 5%;
+    text-align: center;
+}
+footer{
+    background-color: #0B0D17;
+    margin-top: 10%;
+    padding: 20px 0 40px 0;
+    text-align: center;
+}
+footer p{
+    color: #fff;
+    margin-bottom: 50px;
+}
+footer h3 span{
+    color: #FB924A;
 }
