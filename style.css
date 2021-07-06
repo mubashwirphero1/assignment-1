@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #575757;
 }
 section{
@@ -32,7 +32,6 @@ h3{
     background-image: linear-gradient(to left, #FB934A, #FD5332);
     padding: 15px 40px;
     border-radius: 30px;
-    font-weight: bold;
     color: #fff;
     margin-top: 15px;
     text-decoration: none;
@@ -43,9 +42,9 @@ h3{
     width: 50%;
 }
 .about-me{
-    background-image: url(images/shapes/7.png);
-    background-size: cover;
+    background-image: url("images/shapes/7.png");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     margin-top: 98px;
     height: 649px;
 }
@@ -77,24 +76,36 @@ h3{
 }
 .recipie-section{
     width: 35%;
-    padding: 20px;
+    padding: 18px;
     box-shadow: 1px 1px 20px #c5c5c5;
-    border-radius: 15px;
+    border-radius: 30px;
     margin: 0 2% 0 2%;
 }
 .recipie-section img{
     width: 100%;
 }
+.recipie-section h3{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
 .numbers{
-    width: 70%;
+    width: 85%;
     box-shadow: 1px 1px 20px #c5c5c5;
     margin-top: 10%;
     border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .number-section{
     width: 25%;
     margin: 0 5% 0 5%;
     text-align: center;
+    padding: 10px;
+}
+.number-section h2{
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    font-weight: 900;
 }
 footer{
     background-color: #0B0D17;
